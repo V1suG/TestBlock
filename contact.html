@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - Автомобильное строение</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>АвтоСтрой</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О компании</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="contact.html" class="active">Контакты</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="contact-hero">
+        <h2>Свяжитесь с нами</h2>
+        <p>Мы всегда рады ответить на ваши вопросы и обсудить новые проекты</p>
+    </section>
+
+    <section class="contact-content">
+        <div class="contact-info">
+            <h3>Контактная информация</h3>
+            <div class="contact-item">
+                <strong>Адрес:</strong>
+                <p>г. Москва, ул. Автомобильная, д. 123</p>
+            </div>
+            <div class="contact-item">
+                <strong>Телефон:</strong>
+                <p>+7 (495) 123-45-67</p>
+            </div>
+            <div class="contact-item">
+                <strong>Email:</strong>
+                <p>info@avtostroy.ru</p>
+            </div>
+            <div class="contact-item">
+                <strong>Режим работы:</strong>
+                <p>Пн-Пт: 9:00 - 18:00</p>
+                <p>Сб: 10:00 - 16:00</p>
+                <p>Вс: выходной</p>
+            </div>
+        </div>
+        
+        <div class="contact-form">
+            <h3>Отправить сообщение</h3>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Телефон:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Сообщение:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 АвтоСтрой. Все права защищены.</p>
+            <div class="social-links">
+                <a href="#">VK</a>
+                <a href="#">Telegram</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
